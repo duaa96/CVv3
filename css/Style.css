@@ -1,0 +1,365 @@
+html,body,img,p,h1,h2,ul,li,section,article{
+    margin: 0;
+    padding: 0;
+    font:inherit;
+    border: 0;
+    vertical-align: baseline;
+}
+html,body {
+    background: #181818;
+    font-familY:'Lato',helvetica,arial,sans-serif;
+    font-size: 16px;
+    color: #222;
+    
+    
+
+}
+.ALL_CV {
+    animation: reLoad ;
+    animation-duration:2.0s;
+}
+.clear {
+    clear: both;
+}
+#MyCV {
+    width: 90%;
+    background:#f3f3f3;
+    margin: 30px auto; 
+    max-width: 800px;
+    
+}
+
+.Header {
+    padding: 15px 15px 0 15px;
+    border-bottom: 2px solid #cf8a05;
+    background: #ededed;
+}
+
+.Main_Name {
+    float:left;
+    margin: 20px;
+}
+.Main_Name h1 {
+    color: #181818;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: -5px;
+    font-family:'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+.Main_Name p {
+    color: #181818;
+    font-family:'Rokkitt', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+   
+    
+}
+.Contact_info {
+    color: #181818;
+    font-family:'Rokkitt', Helvetica, Arial, sans-serif;
+    float:Right;
+}
+
+.Contact_info ul {
+   list-style-type: none;
+   margin-top:16px;
+   font-size: 0.8em;
+}
+.Contact_info ul li {
+    margin-bottom: 2px;
+    color: #444;
+ }
+ .Picture img {
+     border-radius: 50%;
+     float: left;
+     width: 12%;
+     margin: 20px;
+ }
+ #print{
+     width: 30px;
+     float: left;
+     margin-top: 10px;
+ }
+.Main_Content{
+    margin-left: 40px;
+   
+}
+section {
+    border-bottom: 1px solid #ededed;
+    padding: 20px 0 0;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+ 
+    
+}
+
+#About_me_info {
+  
+  text-align:left;
+  display: flex;
+  
+}
+.Titile {
+    font-size: 1.3em;
+    float: left;
+    font-family:'Rokkitt', Helvetica, Arial, sans-serif;
+    color: #cf8a05;
+    width: 30%;
+    font-style: italic;
+}
+
+#About_Me{
+    color: #cf8a05;
+}
+
+.Information {
+    float: right;
+    width:70%;
+    margin-top:2px;
+    margin-bottom: 3px;
+}
+
+.Information li {
+    list-style-type: none;
+}
+.Information h2 {
+    color: #444;
+    font-family:'Rokkitt', Helvetica, Arial, sans-serif;
+    font-weight: 550;
+    font-size: 1.3em;
+
+}
+p{
+  
+    color: #444;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    text-align: left;
+
+}
+.Information p {
+    color: #444;
+    font-family:'Rokkitt', Helvetica, Arial, sans-serif;
+   
+
+}
+#TtimeExperiance1  {
+   color: #cf8a05;
+   font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+   font-size: 1em;
+   font-style: italic;
+   padding-left: 10px;
+   margin-bottom: 1px;
+}
+#TtimeExperiance2  {
+    color: #cf8a05;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+    padding-left: 10px;
+    margin-bottom: 1px;
+ }
+ .description {
+     padding-left: 10px;
+ }
+
+ #TtimeEducation1{
+    color: #cf8a05;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+    padding-left: 10px;
+    margin-bottom: 1px;
+ }
+
+ #TtimeEducation2{
+    color: #cf8a05;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+    padding-left: 10px;
+    margin-bottom: 1px;
+ }
+ .Key_Skills li {
+    margin-top: 15px;
+     margin-bottom: 15px;
+     text-align: left;
+     color: #444;
+     font-size: 1.3em;
+     font-weight: 550;
+    
+ }
+ .P60 {
+    border:2px solid #444;
+    text-align: left;
+    width:300px;
+    
+   
+}
+.P90 {
+    border:2px solid #cf8a05;
+    text-align: left;
+    width:80%;
+    animation: mymove 3s ;
+   
+}
+.P50 {
+    border:2px solid #cf8a05;
+    text-align: left;
+    width:50%;
+    animation: mymove 3s ;
+   
+}
+.P40 {
+    border:2px solid #cf8a05;
+    text-align: left;
+    width:40%;
+    animation: mymove 3s ;
+   
+}
+.P601 {
+    border:2px solid #cf8a05;
+    text-align: left;
+    width:60%;
+    animation: mymove 3s ;
+   
+}
+.P70 {
+    border:2px solid #cf8a05;
+    text-align: left;
+    width:70%;
+    animation: mymove 3s ;
+   
+}
+.P100{
+    border:2px solid #cf8a05;
+    text-align: left;
+    width:70%;
+    animation: mymove 3s ;
+   
+}
+
+@keyframes mymove {
+    from {Width: 0%;}
+    
+}
+
+@keyframes reLoad {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
+}
+
+
+ 
+  .ColorCV{
+    margin: 0px auto;
+    display: block;
+    display: flex;
+    width: 10%;
+    background: #ededed;
+  }
+  .ColorRed{
+      border: 6px solid red;
+      width: 2%;
+      background: red;
+      position: relative;
+      float: left;
+      margin: 0px 1%;
+    border-radius: 50%;
+  
+      
+
+  }
+  .ColorBlue {
+    border: 6px solid rgb(7, 20, 95);
+    width: 2%;
+    background: rgb(7, 20, 95);
+    position: relative;
+    float: left;
+    margin: 0px 1%;
+    border-radius: 50%;
+    
+
+
+  }
+  .ColorGreen{
+    border: 6px solid rgb(46, 170, 67);
+    width: 2%;
+    background: rgb(46, 170, 67);
+    position: relative;
+    float: left;
+    margin: 0px 1%;
+    border-radius: 50%;
+  }
+    
+  .ColorOrange{
+    border: 6px solid #cf8a05;
+    width: 2%;
+    background: #cf8a05;
+    position: relative;
+    float: left;
+    margin: 0px 1%;
+    border-radius: 50%;
+  }
+
+  #Yourmessage {
+    background: white;
+    width:60%;
+    height: 10%;
+    margin: 0px auto;
+    display: block;
+    border-style: inset;
+   }
+   fieldset {
+       border: none;
+       background: #f3f3f3;
+       width:65%;
+       margin: 0px auto;
+       display: block;
+       padding-top:2%;
+   }
+ 
+  input {
+    background: white;
+    width:50%;
+    height: 4%;
+    margin: 0px auto;
+    display: block;
+    border-style: inset;
+    
+  }
+   #submitdata {
+    margin: 0px auto;
+    display: block;
+    background:#cf8a05;
+    background-image: linear-gradient(to top,#cf8a05,#FCDF5B);
+    background-color:  #cf8a05;
+    width: 50%;
+    height: 4%;
+    border: none;
+    margin-bottom: 10px;
+   }
+
+   #ContactTitile{
+    padding-top: 2% ;
+    margin-top: 5%; 
+    margin-bottom: 2%; 
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+   }
+   .ContactUS h4 {
+       text-align: center;
+       padding-bottom: 2%;
+   }
+   
+   .ContactUS {
+    background-color: #cf8a05;
+   }
+ 
+  

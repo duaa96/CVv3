@@ -1,0 +1,188 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dua'a Tanenah</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/Style.css"  />
+    <link rel="stylesheet" type="text/css" media="print" href="./css/Style.css"  />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/GridResponsive.css" />
+    <link rel="icon" href="./images/icon.png"/>
+    <script src="./js/Color.js"></script>
+    <script src="./js/print.js"></script>
+    <script src="./js/Validation.js"></script>
+    
+</head>
+<body id="All">
+    <div class="ALL_CV" id="MyCV">
+        <!--Header CV-->
+       <img  id="print" src="./images/print.png" onclick="printCV()"/>
+       <div class="Header row" id="Header">
+            <div class="ColorCV">
+                   <a onclick=ChangeColor(1)><div class="ColorRed"  id="Red" ></div></a> 
+                   <a onclick=ChangeColor(2)> <div class="ColorBlue" id="Blue"></div></a>
+                   <a onclick=ChangeColor(3)> <div class="ColorGreen" id="Green"></div></a>
+                   <a onclick=ChangeColor(4)> <div class="ColorOrange" id="Orange"></div></a>
+        
+                </div>
+           <div class="Picture ">
+               <img id="MyPhoto" alt="MyPhoto" src="./images/headshot.jpg">
+           </div>
+           <div class="Main_Name ">
+                <h1 >Dua'a Tanenah</h1>
+                <p >Computer Networks Security and Safety</p>
+           </div>
+           <div class="Contact_info ">
+                <ul>
+                     <li >Email: duaa.tan@gmail.com</li>
+                     <li >Phone: 0595527838</li>
+                     <li >Address: Palestine,Hebron</li>
+                </ul>
+           </div>
+           <div class="clear"></div>
+        </div>
+           <!--INFO CV-->
+       <div class="Main_Content">
+           <!---About me-->
+           <section class="row">
+               <article>
+                    <div class=" Titile row" id="AboutMe">
+                        <h1  class="col-xs-12">Aboute Me</h1>
+                    </div>
+
+                    <div id="Personal_Info " class=" Information row">
+                        <p class="col-xs-12" id="About_me_info">
+                        I am energetic,ambitious person who has developed mature and responsible approach 
+                        to any task than undertake, or situation that I am presented with.
+                        I am excellent working with a team,love to learn new technology.</p>
+                    </div>
+               </article>
+                    
+                    
+               <div class="clear"></div>  
+           </section>
+
+           <!--Experians-->
+           <section class="row">
+                
+                    <div class=" Titile row " id="Experience">
+                        <h1 class="col-xs-12">Experience</h1>
+                    </div>
+                    <div class="Information row " id="info_Experiance">
+                       <article class="col-xs-12">
+                             <h2>Certificate of ACM Palestinian</h2>
+                             <p id="TtimeExperiance1">For two years 2016 and 2017</p>
+                             <p class="description">Learning by solving problems quickly, and teamwork.</p>
+                       </article>
+
+                       <article class="col-xs-12">
+                            <h2>Certificate of English Conversation</h2>
+                            <p id="TtimeExperiance2">Period(2016 )</p>
+                            <p class="description">Learnig the basics of English communication.</p>
+                        </article>
+                    </div>
+                    <div class="clear"></div>  
+           </section>
+           <!--Skills-->
+           <section class="row">
+               <div class=" Titile row " id="Skills">
+                   <h1 class="col-xs-12">Skills</h1>
+               </div>
+               <div class="Information row">
+                   <ul class="Key_Skills col-xs-12">
+                       <li>Networks
+                        <div class="row P60"><div class="P90" id="Skills1"></div></div>
+                       </li>
+                       
+                       <li>Linux administrator
+                        <div class="row P60"><div class="P50" id="Skills2"></div></div>
+                       </li>
+                       
+                       <li>Writing Reprot
+                        <div class="P60"><div class="P40" id="Skills3"></div></div>
+                       </li>
+                    
+                       <li>Andorid mobile App 
+                        <div class="P60"><div class="P601" id="Skills4"></div></div>
+                       </li>
+                       
+                       <li>Java
+                            <div class="P60"><div class="P70" id="Skills5"></div></div>
+                         </li>
+                      
+                       <li>C++ 
+                            <div class="P60"><div class="P100" id="Skills6"></div></div>
+                       </li>
+                   
+
+                   </ul>
+               </div>
+               <div class="clear"></div>
+           </section>
+
+           <!--Education-->
+           
+           <section class="row">
+                <div class="Titile row " id="Education">
+                    <h1 class="col-xs-12">Education</h1>
+                </div>
+                <div class="Information row">
+                        <article class="col-xs-12">
+                              <h2>Bachelor’s Degree</h2>
+                              <p id="TtimeEducation1">Computer Networks Security and Safety in Hebron University.</p>
+                              <p class="description">Learning a basics of networks, network security, basics of computer forensics, and network administration.</p>
+                        </article>
+ 
+                        <article class="col-xs-12">
+                             <h2>Tawjihi Degre</h2>
+                             <p id="TtimeEducation2">Tawjihi in jordan,scientific stream.</p>
+                         </article>
+                     </div>
+                     <div class="clear"></div> 
+           </section>
+          
+       </div>
+    <!--Footer CV -->
+       <div class="ContactUS" id="ContUSform">
+            <h1 id="ContactTitile">Quick Contact</h1>
+            <form id="FormContactUs" action="" method="post" >
+                <fieldset>
+                    <input id="YourName" placeholder="Your Name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                        <input id="YourEmail" placeholder="Your Email address" type="text" tabindex="2" required >
+                </fieldset>
+                <fieldset>
+                        <input  id="YourPhone" placeholder="Your Phone Number" type="text" tabindex="3" required >
+                </fieldset>
+                <fieldset>
+                        <textarea  id="Yourmessage" placeholder="Your Message" type="Email" tabindex="4" required ></textarea>
+                </fieldset>
+                <fieldset>
+                        <button name="submit"  id="submitdata" data-submit="Sending" placeholder="Your Phone Number" type="submit" tabindex="5"  onclick=" return ValidationForm()" >Send </button>
+                </fieldset>
+                <h4>Contact us today, and get reply with in 24 hours!</h4>
+            </form>
+        <div class="clear"></div>
+
+       
+       </div>
+
+          <br>
+          
+        
+        
+
+    </div>
+    
+    
+    
+       
+
+
+
+
+
+</body>
+</html>
